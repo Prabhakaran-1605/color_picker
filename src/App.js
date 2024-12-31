@@ -10,12 +10,11 @@ function App() {
   const [isDarkText, setIsDarkText] = useState(true)
 
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: "#e1dcdb"}}>
 <Square 
 colorValue={colorValue}
 hexValue={hexValue}
 isDarkText={isDarkText}
-
 />
 <Input 
 colorValue={colorValue}
